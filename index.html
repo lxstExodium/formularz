@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rekrutacja do technikum nr 13</title>
+</head>
+
+  <body style="background-image: url('tlo_Humennyi.jpg'); background-size: cover; text-align: center;">
+  <img src="logo_humennyi.png" style="width: 200px; height: 200px; border: 6px solid cyan;">
+    <header>
+        <h1>Rekrutacja do technikum nr 13</h1>
+        <p>Wypełnij formularz</p>
+    </header>
+
+    <form>
+        <label for="imieNazwisko">Wpisz swoje imię i nazwisko:</label><br>
+        <input type="text" id="imieNazwisko" name="imieNazwisko"><br><br>
+
+        <label for="email">Wpisz swoj adres email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="plec">Wybierz swoją płeć:</label><br>
+        <input type="radio" id="mezczyzna" name="plec" value="M">
+        <label for="mezczyzna">M</label>
+        <input type="radio" id="kobieta" name="plec" value="K">
+        <label for="kobieta">K</label><br><br>
+
+        <label for="dataUrodzenia">Wpisz datę urodzenia:</label><br>
+        <input type="date" id="dataUrodzenia" name="dataUrodzenia"><br><br>
+
+        <label for="miejscowosc">Wpisz miejscowość:</label><br>
+        <input type="text" id="miejscowosc" name="miejscowosc"><br><br>
+
+        <label for="gmina">Wpisz gminę:</label><br>
+        <input type="text" id="gmina" name="gmina"><br><br>
+
+        <label for="adres">Wpisz swoj adres:</label><br>
+        <input type="text" id="adres" name="adres"><br><br>
+
+        <label for="pesel">Wpisz swoj numer PESEL:</label><br>
+        <input type="text" id="pesel" name="pesel"><br><br>
+
+        <label for="poprzedniaSzkola">Wpisz swoją poprzednią szkołę:</label><br>
+        <input type="text" id="poprzedniaSzkola" name="poprzedniaSzkola"><br><br>
+
+        <label for="kierunki">Zaznacz swoje wybrane kierunki:</label><br>
+        <input type="checkbox" id="energetyk" name="kierunki" value="Technik Energetyk">
+        <label for="energetyk">Technik Energetyk</label><br>
+        <input type="checkbox" id="elektryk" name="kierunki" value="Technik Elektryk">
+        <label for="elektryk">Technik Elektryk</label><br>
+        <input type="checkbox" id="informatyk" name="kierunki" value="Technik Informatyk">
+        <label for="informatyk">Technik Informatyk</label><br>
+        <input type="checkbox" id="programista" name="kierunki" value="Technik Programista">
+        <label for="programista">Technik Programista</label><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+
+</html>
